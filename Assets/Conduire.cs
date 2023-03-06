@@ -16,13 +16,14 @@ public class Conduire : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            rb.AddRelativeForce(Vector3.forward*speed);
-        }
-        else if (Input.GetKey(KeyCode.S))
+        if (Input.GetKey(KeyCode.S))
         {
             rb.AddRelativeForce(-Vector3.forward*speed);
+        }
+        
+         if (Input.GetKey(KeyCode.W))
+        {
+            rb.AddRelativeForce(Vector3.forward*speed);
         }
     }
 }
