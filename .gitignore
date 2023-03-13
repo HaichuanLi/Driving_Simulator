@@ -2,5 +2,10 @@
 .vs/H23-GTA/FileContentIndex/read.lock
 Library\
 /Library/
+/Log/
+Log\
+/Temp/
+Temp\
 *.meta
 *.meta
+*.log
