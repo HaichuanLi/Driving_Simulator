@@ -2,7 +2,6 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 
-
 namespace UnityStandardAssets.Utility
 {
     public class SimpleActivatorMenu : MonoBehaviour
@@ -14,7 +13,7 @@ namespace UnityStandardAssets.Utility
 
 
         private int m_CurrentActiveObject;
-
+        
 
         private void OnEnable()
         {
