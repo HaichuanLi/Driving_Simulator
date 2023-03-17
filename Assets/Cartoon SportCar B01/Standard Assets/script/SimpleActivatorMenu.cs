@@ -13,7 +13,7 @@ namespace UnityStandardAssets.Utility
 
 
         private int m_CurrentActiveObject;
-        
+
 
         private void OnEnable()
         {

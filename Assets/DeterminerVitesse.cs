@@ -5,15 +5,27 @@ using UnityEngine;
 public class DeterminerVitesse : MonoBehaviour
 {
     public float vitesse;
-    // Start is called before the first frame update
+
+
     void Start()
     {
+        StartCoroutine(CalcVitesse());
         
     }
 
-    // Update is called once per frame
-    void Update()
+    IEnumerator CalcVitesse()
     {
-        
+        bool bouge = true;
+        while (bouge)
+        {
+            Vector3 posPrecedente = transform.position;
+
+            yield return new WaitForFixedUpdate();
+
+            vitesse=Mathf.RoundToInt((Vector3.Distance(transform.position, posPrecedente)/Time.fixedDeltaTime)*10);
+
+        }
     }
+
+    
 }
