@@ -2,12 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WheelController : MonoBehaviour
+public class PNJArretFeuRouge : MonoBehaviour
 {
     [SerializeField] WheelCollider FrontRightWheel;
     [SerializeField] WheelCollider FrontLeftWheel;
     [SerializeField] WheelCollider RearRightWheel;
     [SerializeField] WheelCollider RearLeftWheel;
+
+    public GameObject lumiere;
+    public GameObject activateur;
+    public Rigidbody voiture;
 
     public float acceleration = 100f;
     public float breakingForce = 60f;
@@ -16,22 +20,14 @@ public class WheelController : MonoBehaviour
 
     private float currentAcceleration = 0f;
     private float currentBrakeForce = 0f;
-    private float currentTurnAngle= 0f;
+    private float currentTurnAngle = 0f;
 
     private void FixedUpdate()
     {
-        currentAcceleration = acceleration * Input.GetAxis("Vertical");
-
-        if (Input.GetKey(KeyCode.Space))
-            currentBrakeForce = breakingForce;
-
-        
-        else
-            currentBrakeForce = 0f;
+        currentAcceleration = acceleration;
 
 
-
-        FrontRightWheel.motorTorque = currentAcceleration; 
+        FrontRightWheel.motorTorque = currentAcceleration;
         FrontLeftWheel.motorTorque = currentAcceleration;
 
 
@@ -40,12 +36,31 @@ public class WheelController : MonoBehaviour
         RearRightWheel.brakeTorque = currentBrakeForce;
         RearLeftWheel.brakeTorque = currentBrakeForce;
 
-        currentTurnAngle = maxTurnAngle * Input.GetAxis("Horizontal");
+
         FrontLeftWheel.steerAngle = currentTurnAngle;
         FrontRightWheel.steerAngle = currentTurnAngle;
 
-        if (Input.GetKey(KeyCode.W))
-            this.transform.position = new Vector3(35, 14, 31);
+
     }
+    private void OnTriggerStay(Collider activateur)
+    {
+        if (lumiere.GetComponent<ChangerLumiere>().rouge.active)
+        {
+            
+            currentBrakeForce = breakingForce;
+            voiture.angularDrag = 20;
+            
+
+        }
+        else
+        {
+            currentBrakeForce = 0f;
+            voiture.angularDrag = 0;
+        }
+            
+
+
+    }
+
 
 }
