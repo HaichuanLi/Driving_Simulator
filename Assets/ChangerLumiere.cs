@@ -23,9 +23,8 @@ public class ChangerLumiere : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-               temps += Time.deltaTime;
-        Debug.Log(temps);
-
+        temps += Time.deltaTime;
+       
         tempspartiel = temps;
         if ((int)tempspartiel%20 == 0){
             rouge.SetActive(false);
