@@ -44,8 +44,6 @@ public class WheelController : MonoBehaviour
         FrontLeftWheel.steerAngle = currentTurnAngle;
         FrontRightWheel.steerAngle = currentTurnAngle;
 
-        if (Input.GetKey(KeyCode.W))
-            this.transform.position = new Vector3(35, 14, 31);
     }
 
 }
