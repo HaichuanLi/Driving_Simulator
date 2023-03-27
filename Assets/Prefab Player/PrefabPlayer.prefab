@@ -2506,7 +2506,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6512ee4f20ee1bf4499feadfd3c0a5e1, type: 2}
+  - {fileID: 2100000, guid: 21f83fd1d516d8445bbce69ef09fdfac, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2669,7 +2669,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 8400000, guid: 1cfed5400086b9943b6ada55e66dda21, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: 7a5f4dee0bf68be4fab2dd38c7884a05, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1

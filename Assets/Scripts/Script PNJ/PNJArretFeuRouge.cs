@@ -46,20 +46,29 @@ public class PNJArretFeuRouge : MonoBehaviour
     {
         if (lumiere.GetComponent<ChangerLumiere>().rouge.active)
         {
-            
-            currentBrakeForce = breakingForce;
-            voiture.angularDrag = 20;
-            
+
+            arreterVoiture();
+
+
 
         }
         else
         {
-            currentBrakeForce = 0f;
-            voiture.angularDrag = 0;
+            accelererVoiture();
         }
             
 
 
+    }
+    public void arreterVoiture()
+    {
+        currentBrakeForce = breakingForce;
+        voiture.drag = 3;
+    }
+    public void accelererVoiture()
+    {
+        currentBrakeForce = 0f;
+        voiture.angularDrag = 0;
     }
 
 
