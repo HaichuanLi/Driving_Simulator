@@ -68,7 +68,7 @@ public class PNJArretFeuRouge : MonoBehaviour
     public void accelererVoiture()
     {
         currentBrakeForce = 0f;
-        voiture.angularDrag = 0;
+        voiture.drag = 0;
     }
 
 
