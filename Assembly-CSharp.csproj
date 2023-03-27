@@ -74,7 +74,7 @@
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\SkidTrail.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CameraSwitch.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\DepthOfField.cs" />
-    <Compile Include="Assets\ChangerLumiere.cs" />
+    <Compile Include="Assets\Tarbo-CITY-TrafficLights\PrefabLumiere\ChangerLumiere.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\script\OpenElement.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CarAudio.cs" />
