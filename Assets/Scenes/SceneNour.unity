@@ -303,6 +303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6fabd177ba60654494e1429c3090da1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  joueur: {fileID: 0}
   FrontRightWheel: {fileID: 3700709}
   FrontLeftWheel: {fileID: 1532276570}
   RearRightWheel: {fileID: 1249611965}
@@ -310,6 +311,19 @@ MonoBehaviour:
   acceleration: 130
   breakingForce: 60
   maxTurnAngle: 45
+--- !u!114 &357113394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 357113383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 427902954b225244db2e35ab02619261, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
 --- !u!1 &533138311
 GameObject:
   m_ObjectHideFlags: 0
