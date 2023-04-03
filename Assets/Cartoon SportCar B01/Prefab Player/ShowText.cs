@@ -2,24 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
 
 public class ShowText : MonoBehaviour {
 
     public GameObject joueur;
-    public TMP_Text canvasText;
+    private Text vitesse;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        canvasText.text =  joueur.GetComponent<DeterminerVitesse>().vitesse.ToString();
+        Debug.Log(joueur.GetComponent<DeterminerVitesse>().vitesse.ToString());
+        vitesse.text = joueur.GetComponent<DeterminerVitesse>().vitesse.ToString();
    
     }
 
     // Update is called once per frame
     void Update()
     {
-        canvasText.text = joueur.GetComponent<DeterminerVitesse>().vitesse.ToString();
+        vitesse.text =  joueur.GetComponent<DeterminerVitesse>().vitesse.ToString();
     }
 }

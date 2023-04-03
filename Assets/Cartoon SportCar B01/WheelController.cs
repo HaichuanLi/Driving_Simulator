@@ -1,13 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class WheelController : MonoBehaviour
 {
+    public GameObject joueur;
     [SerializeField] WheelCollider FrontRightWheel;
     [SerializeField] WheelCollider FrontLeftWheel;
     [SerializeField] WheelCollider RearRightWheel;
     [SerializeField] WheelCollider RearLeftWheel;
+   
 
     public float acceleration = 100f;
     public float breakingForce = 60f;
