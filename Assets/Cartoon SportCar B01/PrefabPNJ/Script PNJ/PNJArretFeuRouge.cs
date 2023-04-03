@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class PNJArretFeuRouge : MonoBehaviour
 {
+    public GameObject pnj;
     [SerializeField] WheelCollider FrontRightWheel;
     [SerializeField] WheelCollider FrontLeftWheel;
     [SerializeField] WheelCollider RearRightWheel;
     [SerializeField] WheelCollider RearLeftWheel;
+    public List<GameObject> waypoints = new List<GameObject>();
+    private int indexList=0;
 
     public GameObject lumiere;
     public GameObject activateur;
@@ -40,6 +43,29 @@ public class PNJArretFeuRouge : MonoBehaviour
         FrontLeftWheel.steerAngle = currentTurnAngle;
         FrontRightWheel.steerAngle = currentTurnAngle;
 
+        Vector3 targetDir = waypoints[indexList].transform.position - pnj.transform.position;
+        Debug.Log("0"+waypoints[indexList].transform.position);
+        Debug.Log("1"+ pnj.transform.position);
+        Debug.Log(Vector3.Angle(targetDir, pnj.transform.forward));
+        
+        if (Vector3.Angle(targetDir, transform.forward) > 0)
+        {
+            currentTurnAngle = maxTurnAngle;
+            FrontLeftWheel.steerAngle = currentTurnAngle;
+            FrontRightWheel.steerAngle = currentTurnAngle;
+        }
+        if (Vector3.Angle(targetDir, transform.forward) < 0)
+        {
+            currentTurnAngle = -maxTurnAngle;
+            FrontLeftWheel.steerAngle = currentTurnAngle;
+            FrontRightWheel.steerAngle = currentTurnAngle;
+        }
+        else
+        {
+            currentTurnAngle = 0;
+            FrontLeftWheel.steerAngle = currentTurnAngle;
+            FrontRightWheel.steerAngle = currentTurnAngle;
+        }
 
     }
     private void OnTriggerStay(Collider activateur)

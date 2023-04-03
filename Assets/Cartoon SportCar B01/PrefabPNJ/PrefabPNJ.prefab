@@ -422,6 +422,7 @@ GameObject:
   - component: {fileID: 9560830}
   - component: {fileID: 11406430}
   - component: {fileID: 11411310}
+  - component: {fileID: 9222376006325784472}
   - component: {fileID: 5026790250937406732}
   - component: {fileID: 6735874835984854574}
   - component: {fileID: 8229474047802536308}
@@ -512,6 +513,26 @@ MonoBehaviour:
   - {fileID: 10893654}
   keyboard: 274
   keyboard2: 32
+--- !u!114 &9222376006325784472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 136596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b31e0f054640e9745b9a2d4d0cfcfb67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PNJ: {fileID: 136596}
+  FrontRightWheel: {fileID: 4609081521167278958}
+  FrontLeftWheel: {fileID: 7844650417974733997}
+  RearRightWheel: {fileID: 6275712630411052194}
+  RearLeftWheel: {fileID: 6691323908575326000}
+  acceleration: 100
+  breakingForce: 60
+  maxTurnAngle: 45
 --- !u!54 &5026790250937406732
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -540,6 +561,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6fabd177ba60654494e1429c3090da1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  joueur: {fileID: 0}
   FrontRightWheel: {fileID: 4609081521167278958}
   FrontLeftWheel: {fileID: 7844650417974733997}
   RearRightWheel: {fileID: 6275712630411052194}
