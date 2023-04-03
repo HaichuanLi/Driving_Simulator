@@ -6,13 +6,12 @@ using UnityEngine.UI;
 public class ShowText : MonoBehaviour {
 
     public GameObject joueur;
-    private Text vitesse;
+    public Text vitesse;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log(joueur.GetComponent<DeterminerVitesse>().vitesse.ToString());
         vitesse.text = joueur.GetComponent<DeterminerVitesse>().vitesse.ToString();
    
     }

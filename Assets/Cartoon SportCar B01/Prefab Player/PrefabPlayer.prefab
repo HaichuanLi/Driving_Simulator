@@ -422,7 +422,6 @@ GameObject:
   - component: {fileID: 9560830}
   - component: {fileID: 11406430}
   - component: {fileID: 11411310}
-  - component: {fileID: 759536234776593138}
   - component: {fileID: 1830305209985906447}
   - component: {fileID: 5026790250937406732}
   - component: {fileID: 6735874835984854574}
@@ -517,20 +516,6 @@ MonoBehaviour:
   - {fileID: 10893654}
   keyboard: 274
   keyboard2: 32
---- !u!114 &759536234776593138
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 136596}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5034142c0bae61439d3bb875e610619, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  joueur: {fileID: 136596}
-  canvasText: {fileID: 0}
 --- !u!114 &1830305209985906447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -572,11 +557,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6fabd177ba60654494e1429c3090da1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  joueur: {fileID: 0}
   FrontRightWheel: {fileID: 4609081521167278958}
   FrontLeftWheel: {fileID: 7844650417974733997}
   RearRightWheel: {fileID: 6275712630411052194}
   RearLeftWheel: {fileID: 6691323908575326000}
-  textVitesse: {fileID: 0}
   acceleration: 100
   breakingForce: 60
   maxTurnAngle: 45
@@ -2234,7 +2219,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: 0
 --- !u!1 &2502940866303360477
 GameObject:
   m_ObjectHideFlags: 0
@@ -2553,6 +2538,7 @@ GameObject:
   - component: {fileID: 4126613756610263408}
   - component: {fileID: 6406691208804022959}
   - component: {fileID: 5391911975101722188}
+  - component: {fileID: 988337632004708929}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2643,6 +2629,20 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &988337632004708929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5654616249925402382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5034142c0bae61439d3bb875e610619, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  joueur: {fileID: 136596}
+  vitesse: {fileID: 2637243661815297411}
 --- !u!1 &5773610078418395006
 GameObject:
   m_ObjectHideFlags: 0
