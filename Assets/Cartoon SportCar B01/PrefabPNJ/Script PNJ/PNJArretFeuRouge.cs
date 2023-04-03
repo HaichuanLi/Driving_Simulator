@@ -43,30 +43,34 @@ public class PNJArretFeuRouge : MonoBehaviour
         FrontLeftWheel.steerAngle = currentTurnAngle;
         FrontRightWheel.steerAngle = currentTurnAngle;
 
-        Vector3 targetDir = waypoints[indexList].transform.position - pnj.transform.position;
-        Debug.Log("0"+waypoints[indexList].transform.position);
-        Debug.Log("1"+ pnj.transform.position);
-        Debug.Log(Vector3.Angle(targetDir, pnj.transform.forward));
+
+
         
-        if (Vector3.Angle(targetDir, transform.forward) > 0)
+        Vector3 targetDir = waypoints[indexList].transform.position - pnj.transform.position;
+        
+       
+        float angle = Vector3.SignedAngle(targetDir, pnj.transform.forward, Vector3.up);
+        Debug.Log(angle);
+        if (angle < -5&&angle >-175)
         {
+            
             currentTurnAngle = maxTurnAngle;
-            FrontLeftWheel.steerAngle = currentTurnAngle;
-            FrontRightWheel.steerAngle = currentTurnAngle;
+           
         }
-        if (Vector3.Angle(targetDir, transform.forward) < 0)
+        else if (angle > 5&&angle <175)
         {
+            
             currentTurnAngle = -maxTurnAngle;
-            FrontLeftWheel.steerAngle = currentTurnAngle;
-            FrontRightWheel.steerAngle = currentTurnAngle;
+           
         }
+       
         else
         {
-            currentTurnAngle = 0;
-            FrontLeftWheel.steerAngle = currentTurnAngle;
-            FrontRightWheel.steerAngle = currentTurnAngle;
+            currentTurnAngle = 0*maxTurnAngle;
+            
         }
-
+        FrontLeftWheel.steerAngle = currentTurnAngle;
+        FrontRightWheel.steerAngle = currentTurnAngle;
     }
     private void OnTriggerStay(Collider activateur)
     {
