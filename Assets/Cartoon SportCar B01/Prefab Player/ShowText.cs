@@ -19,6 +19,7 @@ public class ShowText : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
+        
         vitesse.text =  joueur.GetComponent<DeterminerVitesse>().vitesse.ToString();
     }
 }
