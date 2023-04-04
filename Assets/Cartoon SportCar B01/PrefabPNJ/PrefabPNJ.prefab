@@ -424,7 +424,9 @@ GameObject:
   - component: {fileID: 11411310}
   - component: {fileID: 9222376006325784472}
   - component: {fileID: 5026790250937406732}
-  - component: {fileID: 6735874835984854574}
+  - component: {fileID: 5305618027466196687}
+  - component: {fileID: 5007317246865793145}
+  - component: {fileID: 3080055310067591285}
   - component: {fileID: 8229474047802536308}
   m_Layer: 0
   m_Name: PrefabPNJ
@@ -525,14 +527,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b31e0f054640e9745b9a2d4d0cfcfb67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PNJ: {fileID: 136596}
-  FrontRightWheel: {fileID: 4609081521167278958}
-  FrontLeftWheel: {fileID: 7844650417974733997}
-  RearRightWheel: {fileID: 6275712630411052194}
-  RearLeftWheel: {fileID: 6691323908575326000}
-  acceleration: 100
-  breakingForce: 60
-  maxTurnAngle: 45
+  lineColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!54 &5026790250937406732
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -549,7 +544,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &6735874835984854574
+--- !u!114 &5305618027466196687
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -558,17 +553,47 @@ MonoBehaviour:
   m_GameObject: {fileID: 136596}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6fabd177ba60654494e1429c3090da1, type: 3}
+  m_Script: {fileID: 11500000, guid: 29ed56b92dbd3cf47b87d4844308dff2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  joueur: {fileID: 0}
+  vitesse: 0
+--- !u!114 &5007317246865793145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 136596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c49cb4ec299ade449a27a65a40358579, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pnj: {fileID: 136596}
   FrontRightWheel: {fileID: 4609081521167278958}
   FrontLeftWheel: {fileID: 7844650417974733997}
   RearRightWheel: {fileID: 6275712630411052194}
   RearLeftWheel: {fileID: 6691323908575326000}
+  circuit: {fileID: 0}
+  lumiere: {fileID: 0}
+  activateur: {fileID: 0}
+  voiture: {fileID: 5026790250937406732}
   acceleration: 100
   breakingForce: 60
-  maxTurnAngle: 45
+  maxTurnAngle: 30
+--- !u!114 &3080055310067591285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 136596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b31e0f054640e9745b9a2d4d0cfcfb67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lineColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!65 &8229474047802536308
 BoxCollider:
   m_ObjectHideFlags: 0
