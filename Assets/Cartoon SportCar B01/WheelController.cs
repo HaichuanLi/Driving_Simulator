@@ -26,11 +26,20 @@ public class WheelController : MonoBehaviour
         currentAcceleration = acceleration * Input.GetAxis("Vertical");
 
         if (Input.GetKey(KeyCode.Space))
+        {
             currentBrakeForce = breakingForce;
+            joueur.GetComponent<Rigidbody>().drag = 1;
+        }
+         
+            
 
         
         else
+        {
             currentBrakeForce = 0f;
+            joueur.GetComponent<Rigidbody>().drag = 0;
+        }
+           
 
 
 
