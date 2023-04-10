@@ -67,6 +67,7 @@
     <Compile Include="Assets\ArreLumiere.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\TouchPad.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\Joystick.cs" />
+    <Compile Include="Assets\Cartoon SportCar B01\Prefab Player\ScriptDetecteurs\Niveau2\DetecteurArret1N1.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\TiltInput.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\script\on_off_light.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\AutoCam.cs" />
@@ -74,6 +75,7 @@
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CameraSwitch.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\DepthOfField.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\PrefabPNJ\Script PNJ\Circuit.cs" />
+    <Compile Include="Assets\Cartoon SportCar B01\Prefab Player\ChangerTexteJoueur.cs" />
     <Compile Include="Assets\Tarbo-CITY-TrafficLights\PrefabLumiere\ChangerLumiere.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\script\OpenElement.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
@@ -88,7 +90,8 @@
     <Compile Include="Assets\Cartoon SportCar B01\script\brake_light.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\DeterminerVitesse.cs" />
-    <Compile Include="Assets\Cartoon SportCar B01\Prefab Player\ShowText.cs" />
+    <Compile Include="Assets\Cartoon SportCar B01\Prefab Player\ScriptDetecteurs\Niveau2\Detecteur1.cs" />
+    <Compile Include="Assets\Cartoon SportCar B01\Prefab Player\AfficherVitesse.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CarUserControl.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />

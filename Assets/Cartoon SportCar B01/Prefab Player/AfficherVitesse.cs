@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ShowText : MonoBehaviour {
+public class AfficherVitesse : MonoBehaviour {
 
     public GameObject joueur;
     public Text vitesse;
