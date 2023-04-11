@@ -9,7 +9,7 @@ public class DetecteurArret1N1 : MonoBehaviour
     public GameObject joueur;
     private float tempsArret = 0f;
     public TextMeshProUGUI messageJoueur;
-    private float tempsRecommencer = 0f;
+    public float tempsRecommencer = 0f;
     private int arret=0;
 
     // Update is called once per frame
@@ -18,10 +18,11 @@ public class DetecteurArret1N1 : MonoBehaviour
     {
         if (arret == 1)
         { 
+            
             if (tempsRecommencer < 3)
             {
-               messageJoueur.text = "Vous n'avez pas effetué un arrêt complet! Veuillez réessayer.";
-            tempsRecommencer+=Time.deltaTime;
+                messageJoueur.text = "Vous n'avez pas effetué un arrêt complet! Veuillez réessayer.";
+                tempsRecommencer+=Time.deltaTime;
                
             }
             else 
