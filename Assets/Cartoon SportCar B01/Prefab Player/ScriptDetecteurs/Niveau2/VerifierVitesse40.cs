@@ -15,13 +15,15 @@ public class VerifierVitesse40 : MonoBehaviour
 
 
 
-   
+
     void Update()
     {
         if (avertissement == true)
         {
-             messageJoueur.text = "Faites attention à votre vitesse!";
+            messageJoueur.text = "Faites attention à votre vitesse!";
         }
+        else
+            messageJoueur.text = "Assurer-vous de toujours respecter la limite de vitesse.";
         if (recommencer == true)
         {
             messageJoueur.text = "Vous etes allé trop vite. Veuillez réessayer.";
@@ -31,30 +33,39 @@ public class VerifierVitesse40 : MonoBehaviour
                 tempsRecommencer += Time.deltaTime;
 
             }
-            else if(tempsRecommencer>3)
-                
+            else if (tempsRecommencer > 3)
+
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
-        
+
     }
     private void OnTriggerEnter(Collider other)
     {
-        detecteur1.GetComponent<DetecteurArret1N1>().enabled=false;
+        if (other.gameObject.name == "Player")
+        {
+            detecteur1.GetComponent<DetecteurArret1N1>().enabled = false;
+        }
+
+        
     }
     private void OnTriggerStay(Collider other)
     {
-
-        if (joueur.GetComponent<DeterminerVitesse>().vitesse > 40 && joueur.GetComponent<DeterminerVitesse>().vitesse < 45)
+        if (other.gameObject.name == "Player")
         {
-            avertissement = true;
+            if (joueur.GetComponent<DeterminerVitesse>().vitesse > 40 && joueur.GetComponent<DeterminerVitesse>().vitesse < 45)
+            {
+                avertissement = true;
 
+            }
+            else 
+                avertissement = false;
+            if (joueur.GetComponent<DeterminerVitesse>().vitesse > 45)
+            {
+                recommencer = true;
+
+            }
         }
-        else
-            avertissement = false;
-        if (joueur.GetComponent<DeterminerVitesse>().vitesse > 45)
-        {
-            recommencer = true;
-            
-        }
+
+
     }
 }

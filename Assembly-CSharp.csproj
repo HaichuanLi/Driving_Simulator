@@ -81,6 +81,7 @@
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CarAudio.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\SimpleActivatorMenu.cs" />
+    <Compile Include="Assets\Cartoon SportCar B01\Prefab Player\ScriptDetecteurs\Niveau2\VerifierVitesse40.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\PrefabPNJ\Script PNJ\PNJArretFeuRouge.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CarController.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\PivotBasedCameraRig.cs" />
@@ -97,7 +98,8 @@
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\MobileControlRig.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
-    <Compile Include="Assets\Cartoon SportCar B01\Prefab Player\ScriptDetecteurs\Niveau2\VerifierVitesse40.cs" />
+    <Compile Include="Assets\LB3D\Bus\GameManager.cs" />
+    <Compile Include="Assets\LB3D\Bus\Scripts\BusControl.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -108,6 +110,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\LB3D\Bus\Documentation.txt" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />

@@ -31,8 +31,10 @@ public class DetecteurArret1N1 : MonoBehaviour
         else if (arret == 2)
         {
             messageJoueur.text = "Assurer-vous de toujours respecter la limite de vitesse.";
+
         }
     }
+    
     public void OnTriggerStay(Collider other)
     {
 
