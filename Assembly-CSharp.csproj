@@ -82,7 +82,7 @@
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CarAudio.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\SimpleActivatorMenu.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Prefab Player\ScriptDetecteurs\Niveau2\VerifierVitesse40.cs" />
-    <Compile Include="Assets\Cartoon SportCar B01\PrefabPNJ\Script PNJ\PNJArretFeuRouge.cs" />
+    <Compile Include="Assets\Cartoon SportCar B01\PrefabPNJ\Script PNJ\PNJBouger.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CarController.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\PivotBasedCameraRig.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\AbstractTargetFollower.cs" />
@@ -100,6 +100,8 @@
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
     <Compile Include="Assets\LB3D\Bus\GameManager.cs" />
     <Compile Include="Assets\LB3D\Bus\Scripts\BusControl.cs" />
+    <Compile Include="Assets\Cartoon SportCar B01\PrefabPNJ\Script PNJ\PnjNiveau2\ArretaLArret.cs" />
+    <Compile Include="Assets\Cartoon SportCar B01\PrefabPNJ\Script PNJ\PnjNiveau2\PNJBougerNiveau2.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

@@ -11,7 +11,12 @@ public class Detecteur1 : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        messageJoueur.text = "Assurez-vous de vous arrêter complètement derrière la ligne d'arrêt pour au moins 1 seconde.";
+        if (other.gameObject.name == "Player")
+        {
+            messageJoueur.text = "Assurez-vous de vous arrêter complètement derrière la ligne d'arrêt pour au moins 1 seconde.";
+        }
+
+
     }
 
 

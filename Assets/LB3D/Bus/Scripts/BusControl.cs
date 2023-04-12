@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BusControl : MonoBehaviour {
+public class BusControl : MonoBehaviour
+{
 
     /// <summary>
     /// This is an example script for controlling the doors and signs on the bus. 
@@ -13,35 +14,41 @@ public class BusControl : MonoBehaviour {
     public Animator Door2;
     public Animator StopSign1;
     public Animator StopSign3;
+    private int cpt = 0;
+    public bool ouvert;
 
     public float OpenCloseSpeed;
 
-    private bool isOpen = false;    
-    
-    public void Open(bool open = true) {
-        string action = "";
-        if (open)
-        {
-            action = "Open";
-        }
-        else {
-            action = "Close";
-        }
-        Door1.SetTrigger(action);
-        Door2.SetTrigger(action);
-        StopSign1.SetTrigger(action);  
-        StopSign3.SetTrigger(action);
-        isOpen = !isOpen;
+
+
+    private void Start()
+    {
+        Open();
+        
     }
 
-    public void ToggleDoor() {
-        if (isOpen)
+    private void Update()
+    {
+        if (Time.realtimeSinceStartup > 5f && cpt==0)
         {
-            Open(false);
-        }
-        else {
-            Open(true);
+            cpt++;
+            Close();
         }
     }
+    public void Open()
+    {
+        ouvert = true;
+        StopSign1.SetTrigger("Open");
+        StopSign3.SetTrigger("Open");
+    }
+    public void Close()
+    {
+        ouvert = false;
+        StopSign1.SetTrigger("Close");
+        StopSign3.SetTrigger("Close");
+    }
+
+
+
 
 }

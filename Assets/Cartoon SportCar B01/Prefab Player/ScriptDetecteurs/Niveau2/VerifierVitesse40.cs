@@ -22,8 +22,7 @@ public class VerifierVitesse40 : MonoBehaviour
         {
             messageJoueur.text = "Faites attention à votre vitesse!";
         }
-        else
-            messageJoueur.text = "Assurer-vous de toujours respecter la limite de vitesse.";
+        
         if (recommencer == true)
         {
             messageJoueur.text = "Vous etes allé trop vite. Veuillez réessayer.";

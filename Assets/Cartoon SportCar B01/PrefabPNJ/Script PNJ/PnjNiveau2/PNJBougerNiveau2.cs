@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PNJArretFeuRouge : MonoBehaviour
+public class PNJBougerNiveau2 : MonoBehaviour
 {
     public GameObject pnj;
     [SerializeField] WheelCollider FrontRightWheel;
@@ -13,20 +13,19 @@ public class PNJArretFeuRouge : MonoBehaviour
     private List<Transform> nodes;
     private int currentNode = 0;
 
-    
 
-    public GameObject lumiere;
-    public GameObject activateur;
+
+    
     public Rigidbody voiture;
-    
 
-   
 
-    
+
+
+
     public float acceleration = 100f;
     public float breakingForce = 60f;
     public float maxTurnAngle = 30f;
-    private float vitesseMax = 35f;
+    public float vitesseMax = 35f;
 
 
     private float currentAcceleration = 0f;
@@ -38,7 +37,7 @@ public class PNJArretFeuRouge : MonoBehaviour
         Transform[] pathTransforms = circuit.GetComponentsInChildren<Transform>();
         nodes = new List<Transform>();
 
-        for (int i =0; i < pathTransforms.Length; i++)
+        for (int i = 0; i < pathTransforms.Length; i++)
         {
             if (pathTransforms[i] != circuit.transform)
             {
@@ -51,7 +50,7 @@ public class PNJArretFeuRouge : MonoBehaviour
     {
         if (pnj.GetComponent<DeterminerVitesse>().vitesse > vitesseMax)
         {
-        currentAcceleration = 0;
+            currentAcceleration = 0;
 
         }
         else
@@ -60,7 +59,7 @@ public class PNJArretFeuRouge : MonoBehaviour
         }
 
 
-        
+
 
 
         FrontRightWheel.brakeTorque = currentBrakeForce;
@@ -82,22 +81,11 @@ public class PNJArretFeuRouge : MonoBehaviour
         FrontLeftWheel.motorTorque = currentAcceleration;
         CalculerDistanceWaypoint();
 
-       
-        
+
+
     }
+
     
-    private void OnTriggerStay(Collider activateur)
-    {
-        if (lumiere.GetComponent<ChangerLumiere>().rouge.active)
-        {
-            arreterVoiture();
-        }
-        else
-        {
-            accelererVoiture();
-        }
-   
-    }
     public void arreterVoiture()
     {
         currentBrakeForce = breakingForce;
@@ -111,7 +99,7 @@ public class PNJArretFeuRouge : MonoBehaviour
 
     private void CalculerDistanceWaypoint()
     {
-        if (Vector3.Distance(pnj.transform.position, nodes[currentNode].position) < 0.1f)
+        if (Vector3.Distance(pnj.transform.position, nodes[currentNode].position) < 0.3f)
         {
             if (currentNode == nodes.Count - 1)
             {
@@ -123,6 +111,5 @@ public class PNJArretFeuRouge : MonoBehaviour
             }
         }
     }
-
 
 }
