@@ -22,7 +22,11 @@ public class DeterminerVitesse : MonoBehaviour
 
             yield return new WaitForFixedUpdate();
 
-            vitesse=Mathf.RoundToInt((Vector3.Distance(transform.position, posPrecedente)/Time.fixedDeltaTime)*10);
+            vitesse=Mathf.RoundToInt((Vector3.Distance(transform.position, posPrecedente)/Time.fixedDeltaTime)*10)-10;
+            if (vitesse < 0)
+            {
+                vitesse = 0;
+            }
 
         }
     }
