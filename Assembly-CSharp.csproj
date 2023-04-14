@@ -53,9 +53,6 @@
     <UnityVersion>2022.1.11f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\WheelEffects.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\PostEffectsBase.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\ButtonHandler.cs" />
@@ -76,15 +73,18 @@
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\DepthOfField.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\PrefabPNJ\Script PNJ\Circuit.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Prefab Player\ChangerTexteJoueur.cs" />
+    <Compile Include="Assets\LB3D\Bus\GameManager.cs" />
     <Compile Include="Assets\Tarbo-CITY-TrafficLights\PrefabLumiere\ChangerLumiere.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\script\OpenElement.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
+    <Compile Include="Assets\LB3D\Bus\Scripts\BusControl.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CarAudio.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\SimpleActivatorMenu.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Prefab Player\ScriptDetecteurs\Niveau2\VerifierVitesse40.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\PrefabPNJ\Script PNJ\PNJBouger.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CarController.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\PivotBasedCameraRig.cs" />
+    <Compile Include="Assets\Cartoon SportCar B01\PrefabPNJ\Script PNJ\PnjNiveau2\PNJBougerNiveau2.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\AbstractTargetFollower.cs" />
     <Compile Include="Assets\CollisionDetector.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\VignetteAndChromaticAberration.cs" />
@@ -92,16 +92,13 @@
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\DeterminerVitesse.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Prefab Player\ScriptDetecteurs\Niveau2\Detecteur1.cs" />
+    <Compile Include="Assets\Cartoon SportCar B01\PrefabPNJ\Script PNJ\PnjNiveau2\ArretaLArret.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Prefab Player\AfficherVitesse.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CarUserControl.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\MobileControlRig.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
-    <Compile Include="Assets\LB3D\Bus\GameManager.cs" />
-    <Compile Include="Assets\LB3D\Bus\Scripts\BusControl.cs" />
-    <Compile Include="Assets\Cartoon SportCar B01\PrefabPNJ\Script PNJ\PnjNiveau2\ArretaLArret.cs" />
-    <Compile Include="Assets\Cartoon SportCar B01\PrefabPNJ\Script PNJ\PnjNiveau2\PNJBougerNiveau2.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -838,6 +835,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="RoadArchitect.csproj">
+      <Project>{B4B02465-6779-2A88-4F9A-FC577E1F7EAF}</Project>
+      <Name>RoadArchitect</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
