@@ -6,33 +6,32 @@ using UnityEngine.SceneManagement;
 public class Menu_Scripts : MonoBehaviour
 {
 
-    enum EtatMenu {
-        MENU_PRINCIPALE,
-        SELECTION_NIVEAU
-    };
+    public bool[] niveauDebloque = new bool[10];
 
-    EtatMenu etat_menu = EtatMenu.MENU_PRINCIPALE;
-    public ArrayList nivaux = new ArrayList(1);
-
+    public void Start(){
+        
+        for (int i = 0; i < (niveauDebloque.GetLength(0)); i++)
+        {
+        niveauDebloque[i] = false;
+        }
+        
+    }
 
     
 
     public void Update(){
-        switch (etat_menu){
-            case EtatMenu.MENU_PRINCIPALE: print("a");break;
-            case EtatMenu.SELECTION_NIVEAU: print("b");break;
-        }
-    }
-
-   
-
-    public void StartGame()
+       
+    }   
+    
+    
+    public void ChargerNiveau(int niveau)
     {
-        SceneManager.LoadScene(1);
+       SceneManager.LoadScene("Niveau"+niveau);
     }
 
     public void Quit()
     {
         Application.Quit();
     }
+
 }
