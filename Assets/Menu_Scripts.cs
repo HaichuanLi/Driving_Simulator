@@ -5,18 +5,34 @@ using UnityEngine.SceneManagement;
 
 public class Menu_Scripts : MonoBehaviour
 {
-    // Start is called before the first frame update
+
+    enum EtatMenu {
+        MENU_PRINCIPALE,
+        SELECTION_NIVEAU
+    };
+
+    EtatMenu etat_menu = EtatMenu.MENU_PRINCIPALE;
+    public ArrayList nivaux = new ArrayList(1);
+
+
+    
+
+    public void Update(){
+        switch (etat_menu){
+            case EtatMenu.MENU_PRINCIPALE: print("a");break;
+            case EtatMenu.SELECTION_NIVEAU: print("b");break;
+        }
+    }
+
    
 
     public void StartGame()
     {
-        Debug.Log("qsadf");
         SceneManager.LoadScene(1);
     }
 
     public void Quit()
     {
-           Debug.Log("qsadf");
         Application.Quit();
     }
 }
