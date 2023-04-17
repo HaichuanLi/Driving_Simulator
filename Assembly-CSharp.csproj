@@ -59,11 +59,13 @@
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\WheelEffects.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\PostEffectsBase.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\ButtonHandler.cs" />
+    <Compile Include="Assets\Buttons_Play.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\PlatformSpecificContent.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\VirtualInput.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\ProtectCameraFromWallClip.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\WheelController.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\FreeLookCam.cs" />
+    <Compile Include="Assets\Auto_Menu.cs" />
     <Compile Include="Assets\ArreLumiere.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\TouchPad.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\Joystick.cs" />
@@ -85,6 +87,7 @@
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\SimpleActivatorMenu.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Prefab Player\ScriptDetecteurs\Niveau2\VerifierVitesse40.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\PrefabPNJ\Script PNJ\PNJBouger.cs" />
+    <Compile Include="Assets\Menu_Scripts.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CarController.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\PivotBasedCameraRig.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\PrefabPNJ\Script PNJ\PnjNiveau2\PNJBougerNiveau2.cs" />
@@ -96,6 +99,7 @@
     <Compile Include="Assets\Cartoon SportCar B01\DeterminerVitesse.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Prefab Player\ScriptDetecteurs\Niveau2\Detecteur1.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\PrefabPNJ\Script PNJ\PnjNiveau2\ArretaLArret.cs" />
+    <Compile Include="Assets\Script.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Prefab Player\AfficherVitesse.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CarUserControl.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
@@ -103,10 +107,7 @@
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\MobileControlRig.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
     <Compile Include="Assets\VerifierLignes.cs" />
-    <Compile Include="Assets\Script.cs" />
-    <Compile Include="Assets\Auto_Menu.cs" />
-    <Compile Include="Assets\Menu_Scripts.cs" />
-    <Compile Include="Assets\Buttons_Play.cs" />
+    <Compile Include="Assets\VoirSiBouge.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
