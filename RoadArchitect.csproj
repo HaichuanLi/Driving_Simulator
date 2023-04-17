@@ -427,6 +427,30 @@
     <Reference Include="ReportGeneratorMerged">
       <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.1.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
+<<<<<<< Updated upstream
+=======
+    <Reference Include="UnityCodeAssistSynchronizerModel">
+      <HintPath>Assets\Plugins\CodeAssist\Editor\ExternalReferences\Release\netstandard2.0\UnityCodeAssistSynchronizerModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>Assets\Plugins\CodeAssist\Editor\ExternalReferences\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="Serilog">
+      <HintPath>Assets\Plugins\CodeAssist\Editor\ExternalReferences\Serilog.dll</HintPath>
+    </Reference>
+    <Reference Include="Serilog.Sinks.PersistentFile">
+      <HintPath>Assets\Plugins\CodeAssist\Editor\ExternalReferences\Serilog.Sinks.PersistentFile.dll</HintPath>
+    </Reference>
+    <Reference Include="NaCl">
+      <HintPath>Assets\Plugins\CodeAssist\Editor\ExternalReferences\NaCl.dll</HintPath>
+    </Reference>
+    <Reference Include="NetMQ">
+      <HintPath>Assets\Plugins\CodeAssist\Editor\ExternalReferences\NetMQ.dll</HintPath>
+    </Reference>
+    <Reference Include="AsyncIO">
+      <HintPath>Assets\Plugins\CodeAssist\Editor\ExternalReferences\AsyncIO.dll</HintPath>
+    </Reference>
+>>>>>>> Stashed changes
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:\Program Files\Unity 2022.1.11f1\Editor\Data\PlaybackEngines\AppleTVSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
     </Reference>
