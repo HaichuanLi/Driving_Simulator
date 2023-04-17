@@ -4,6 +4,8 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 
+
+
 public class VerifierVitesse40 : MonoBehaviour
 {
     public GameObject joueur;
@@ -16,26 +18,36 @@ public class VerifierVitesse40 : MonoBehaviour
 
 
 
+
+
     void Update()
     {
         if (avertissement == true)
         {
-            messageJoueur.text = "Faites attention à votre vitesse!";
+            messageJoueur.text = "Faites attention Ã  votre vitesse!";
         }
-        
+
         if (recommencer == true)
         {
-            messageJoueur.text = "Vous etes allé trop vite. Veuillez réessayer.";
+            messageJoueur.text = "Vous etes allÃ© trop vite. Veuillez rÃ©essayer.";
             if (tempsRecommencer < 3)
             {
 
+
+
                 tempsRecommencer += Time.deltaTime;
+
+
 
             }
             else if (tempsRecommencer > 3)
 
+
+
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
+
+
 
     }
     private void OnTriggerEnter(Collider other)
@@ -45,7 +57,9 @@ public class VerifierVitesse40 : MonoBehaviour
             detecteur1.GetComponent<DetecteurArret1N1>().enabled = false;
         }
 
-        
+
+
+
     }
     private void OnTriggerStay(Collider other)
     {
@@ -55,15 +69,21 @@ public class VerifierVitesse40 : MonoBehaviour
             {
                 avertissement = true;
 
+
+
             }
-            else 
+            else
                 avertissement = false;
             if (joueur.GetComponent<DeterminerVitesse>().vitesse > 45)
             {
                 recommencer = true;
 
+
+
             }
         }
+
+
 
 
     }
