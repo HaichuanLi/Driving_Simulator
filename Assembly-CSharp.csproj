@@ -108,6 +108,7 @@
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
     <Compile Include="Assets\VerifierLignes.cs" />
     <Compile Include="Assets\VoirSiBouge.cs" />
+    <Compile Include="Assets\BouttonDebloque.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
