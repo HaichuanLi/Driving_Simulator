@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class Detecteur1Niv3 : MonoBehaviour
+public class ChangerMessageJoueur : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI messageJoueur;
+    public string message;
 
 
 
@@ -13,7 +14,8 @@ public class Detecteur1Niv3 : MonoBehaviour
     {
         if (other.gameObject.name == "Player")
         {
-            messageJoueur.text = "Portez attention à l'autobus.";
+            messageJoueur.text = message;
+
         }
 
 

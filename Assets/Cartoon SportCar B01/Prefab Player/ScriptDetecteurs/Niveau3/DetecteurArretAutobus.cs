@@ -8,7 +8,7 @@ public class DetecteurArretAutobus : MonoBehaviour
 {
     public GameObject joueur;
     public GameObject bus;
-    private float tempsArret = 0f;
+   
     public TextMeshProUGUI messageJoueur;
     public float tempsRecommencer = 0f;
     private int arret = 0;
