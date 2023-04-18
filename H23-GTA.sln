@@ -1,30 +1,23 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{FD437752-AFA6-6075-DC1B-5DAF4999780D}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{527743fd-a6af-7560-dc1b-5daf4999780d}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadArchitect", "RoadArchitect.csproj", "{B4B02465-6779-2A88-4F9A-FC577E1F7EAF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadArchitect", "RoadArchitect.csproj", "{6524b0b4-7967-882a-4f9a-fc577e1f7eaf}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meryel.CodeAssist.Editor", "Meryel.CodeAssist.Editor.csproj", "{CEC4018F-5AF7-98D7-0929-D724EEAF494D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meryel.CodeAssist.Editor", "Meryel.CodeAssist.Editor.csproj", "{8f01c4ce-f75a-d798-0929-d724eeaf494d}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FD437752-AFA6-6075-DC1B-5DAF4999780D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FD437752-AFA6-6075-DC1B-5DAF4999780D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FD437752-AFA6-6075-DC1B-5DAF4999780D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FD437752-AFA6-6075-DC1B-5DAF4999780D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B4B02465-6779-2A88-4F9A-FC577E1F7EAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B4B02465-6779-2A88-4F9A-FC577E1F7EAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B4B02465-6779-2A88-4F9A-FC577E1F7EAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B4B02465-6779-2A88-4F9A-FC577E1F7EAF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CEC4018F-5AF7-98D7-0929-D724EEAF494D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CEC4018F-5AF7-98D7-0929-D724EEAF494D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CEC4018F-5AF7-98D7-0929-D724EEAF494D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CEC4018F-5AF7-98D7-0929-D724EEAF494D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{527743fd-a6af-7560-dc1b-5daf4999780d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{527743fd-a6af-7560-dc1b-5daf4999780d}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6524b0b4-7967-882a-4f9a-fc577e1f7eaf}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6524b0b4-7967-882a-4f9a-fc577e1f7eaf}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8f01c4ce-f75a-d798-0929-d724eeaf494d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8f01c4ce-f75a-d798-0929-d724eeaf494d}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
