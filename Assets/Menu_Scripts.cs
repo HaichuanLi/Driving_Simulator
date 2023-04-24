@@ -29,9 +29,19 @@ public class Menu_Scripts : MonoBehaviour
        SceneManager.LoadScene("Niveau"+niveau);
     }
 
+    public void DeploquerNiveau(){
+        int temp = 1;
+        while (niveauDebloque[temp]){
+            temp++;
+        }
+        niveauDebloque[temp]=true;
+    }
+    public void DeploquerNiveau(int n){
+        niveauDebloque[n]=true;
+    }
+
     public void Quit()
     {
         Application.Quit();
     }
-
 }
