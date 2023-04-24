@@ -60,7 +60,6 @@
      <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CameraSwitch.cs" />
      <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\DepthOfField.cs" />
      <Compile Include="Assets\Cartoon SportCar B01\PrefabPNJ\Script PNJ\Circuit.cs" />
-     <Compile Include="Assets\Triangle.cs" />
      <Compile Include="Assets\Cartoon SportCar B01\Prefab Player\ChangerTexteJoueur.cs" />
      <Compile Include="Assets\LB3D\Bus\GameManager.cs" />
      <Compile Include="Assets\RainMaker\Prefab\RainScript.cs" />
@@ -91,7 +90,6 @@
      <Compile Include="Assets\Cartoon SportCar B01\Prefab Player\ScriptDetecteurs\Niveau2\Detecteur1.cs" />
      <Compile Include="Assets\Cartoon SportCar B01\PrefabPNJ\Script PNJ\PNJNiveau3\BougerBus.cs" />
      <Compile Include="Assets\Cartoon SportCar B01\PrefabPNJ\Script PNJ\PnjNiveau2\ArretaLArret.cs" />
-     <Compile Include="Assets\Script.cs" />
      <Compile Include="Assets\RainMaker\Demo\DemoScript.cs" />
      <Compile Include="Assets\Cartoon SportCar B01\Prefab Player\AfficherVitesse.cs" />
      <Compile Include="Assets\Cartoon SportCar B01\Prefab Player\ScriptDetecteurs\Niveau3\DetecteurArretAutobus.cs" />

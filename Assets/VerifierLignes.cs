@@ -18,12 +18,12 @@ public class VerifierLignes : MonoBehaviour
 
         if (avertissement == true)
         {
-            messageJoueur.text = "Faites attention, restez dans vos lignes!";
+            messageJoueur.text = "Faites attention, restez dans votre voie!";
         }
 
         if (recommencer == true)
         {
-            messageJoueur.text = "Vous êtes hors de votre marge de manoeuvre encore une fois ;(";
+            messageJoueur.text = "Vous sortez trop de votre voie!";
             if (tempsRecommencer < 3)
             {
 
