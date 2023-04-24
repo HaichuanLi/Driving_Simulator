@@ -54,7 +54,7 @@ public class VerifierVitesse40 : MonoBehaviour
     {
         if (other.gameObject.name == "Player")
         {
-            detecteur1.GetComponent<DetecteurArret1N1>().enabled = false;
+            detecteur1.GetComponent<DetecteurArret1N2>().enabled = false;
         }
 
 
