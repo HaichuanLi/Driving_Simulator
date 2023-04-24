@@ -9,7 +9,7 @@ public class Triangle : MonoBehaviour
     {
         Mesh mesh = new Mesh();
         
-        GetComponenent<MeshFilter>().mesh = mesh;
+        
 
     }
     }
