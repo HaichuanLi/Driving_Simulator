@@ -33,7 +33,7 @@ public class FInNiv2 : MonoBehaviour
     {
         if (other.gameObject.name == "Player")
         {
-            messageJoueur.text = "Félicitation!";
+            messageJoueur.text = "Félicitation! Passage au niveau 3.";
             joueur.GetComponent<WheelController>().arreterVoiture();
             fin = true;
 
