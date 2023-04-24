@@ -34,7 +34,7 @@ public class FInNiv2 : MonoBehaviour
         if (other.gameObject.name == "Player")
         {
             messageJoueur.text = "Félicitation!";
-            joueur.GetComponent<WheelController>().arreterVoiture();
+           
             fin = true;
 
         }
