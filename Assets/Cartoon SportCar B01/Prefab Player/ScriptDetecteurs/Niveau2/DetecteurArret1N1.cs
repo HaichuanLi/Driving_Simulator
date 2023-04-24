@@ -12,7 +12,6 @@ public class DetecteurArret1N1 : MonoBehaviour
     public float tempsRecommencer = 0f;
     private int arret = 0;
 
-    // Update is called once per frame
 
     private void Update()
     {
@@ -21,18 +20,14 @@ public class DetecteurArret1N1 : MonoBehaviour
 
             if (tempsRecommencer < 3)
             {
-                messageJoueur.text = "Vous n'avez pas effetué un arrêt complet! Veuillez réessayer.";
+                messageJoueur.text = "Vous n'avez pas effetué un arrêt complet d'une seconde! Veuillez réessayer.";
                 tempsRecommencer += Time.deltaTime;
 
             }
             else
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
-        else if (arret == 2)
-        {
-            messageJoueur.text = "Assurer-vous de toujours respecter la limite de vitesse.";
-
-        }
+        
     }
 
     public void OnTriggerStay(Collider other)
@@ -47,7 +42,6 @@ public class DetecteurArret1N1 : MonoBehaviour
 
         }
 
-
     }
     public void OnTriggerExit(Collider other)
     {
@@ -59,8 +53,7 @@ public class DetecteurArret1N1 : MonoBehaviour
                 arret = 1;
 
             }
-            else
-                arret = 2;
+            
         }
 
 

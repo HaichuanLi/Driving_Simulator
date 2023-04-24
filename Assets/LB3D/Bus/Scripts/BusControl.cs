@@ -5,18 +5,15 @@ using UnityEngine;
 public class BusControl : MonoBehaviour
 {
 
-    /// <summary>
-    /// This is an example script for controlling the doors and signs on the bus. 
-    /// You may wish to create a more specific implementation consistent with your game.
-    /// </summary>
 
-    public Animator Door1;
-    public Animator Door2;
+    public GameObject detecteurArretBus;
+    public GameObject bus;
     public Animator StopSign1;
     public Animator StopSign3;
     private int cpt = 0;
     public bool ouvert;
-
+    private float tempsFermer = 0f;
+    private bool avancer = false;
     public float OpenCloseSpeed;
 
 
@@ -27,14 +24,26 @@ public class BusControl : MonoBehaviour
         
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
-        if (Time.realtimeSinceStartup > 5f && cpt==0)
+        if (detecteurArretBus.GetComponent<DetecteurArretAutobus>().dansZone == true)
+        {
+            tempsFermer += Time.deltaTime;
+        }
+        if (tempsFermer > 5f && cpt==0)
         {
             cpt++;
             Close();
+            avancer = true;
+        }
+        if (avancer == true)
+        {
+            bus.GetComponent<BougerBus>().enabled = true;
+
+
         }
     }
+
     public void Open()
     {
         ouvert = true;
