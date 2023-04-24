@@ -113,6 +113,13 @@
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
     <Compile Include="Assets\VerifierLignes.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Prefab Player\ScriptDetecteurs\Niveau2\FInNiv2.cs" />
+    <Compile Include="Assets\RainMaker\Demo\DemoScript2D.cs" />
+    <Compile Include="Assets\RainMaker\Prefab\BaseRainScript.cs" />
+    <Compile Include="Assets\RainMaker\Demo\DemoScriptStartRainOnSpaceBar.cs" />
+    <Compile Include="Assets\RainMaker\Prefab\RainCollision.cs" />
+    <Compile Include="Assets\RainMaker\Demo\DemoScript.cs" />
+    <Compile Include="Assets\RainMaker\Prefab\RainScript2D.cs" />
+    <Compile Include="Assets\RainMaker\Prefab\RainScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -122,6 +129,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\RainMaker\Readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\LB3D\Bus\Documentation.txt" />
     <None Include="Assets\BEDRILL\Track_Environment_Free\Readme.txt" />
@@ -136,6 +144,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\Cartoon SportCar B01\Standard Assets\divers\SeparableBlur.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\RainMaker\Prefab\RainShader.shader" />
     <None Include="Assets\Cartoon SportCar B01\Standard Assets\divers\ChromaticAberrationShader.shader" />
     <None Include="Assets\Cartoon SportCar B01\Standard Assets\divers\DepthOfFieldScatter.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />

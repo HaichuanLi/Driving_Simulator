@@ -57,5 +57,10 @@ public class WheelController : MonoBehaviour
         FrontRightWheel.steerAngle = currentTurnAngle;
 
     }
+    public void arreterVoiture()
+    {
+        currentBrakeForce = breakingForce;
+        joueur.GetComponent<Rigidbody>().drag = 3;
+    }
 
 }

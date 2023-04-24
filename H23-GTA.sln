@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadArchitect", "RoadArchit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meryel.CodeAssist.Editor", "Meryel.CodeAssist.Editor.csproj", "{CEC4018F-5AF7-98D7-0929-D724EEAF494D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{F2631F8B-429D-99E0-55B9-0946113C59A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{CEC4018F-5AF7-98D7-0929-D724EEAF494D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEC4018F-5AF7-98D7-0929-D724EEAF494D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEC4018F-5AF7-98D7-0929-D724EEAF494D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2631F8B-429D-99E0-55B9-0946113C59A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2631F8B-429D-99E0-55B9-0946113C59A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2631F8B-429D-99E0-55B9-0946113C59A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2631F8B-429D-99E0-55B9-0946113C59A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
