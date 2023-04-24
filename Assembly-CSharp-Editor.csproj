@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F2631F8B-429D-99E0-55B9-0946113C59A3}</ProjectGuid>
+    <ProjectGuid>{1819BA35-9140-D1EE-C566-17512578D7DE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -869,11 +869,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{FD437752-AFA6-6075-DC1B-5DAF4999780D}</Project>
+      <Project>{3AC4D4C1-2DAA-8263-EF55-6398BCFBCCC7}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="RoadArchitect.csproj">
-      <Project>{B4B02465-6779-2A88-4F9A-FC577E1F7EAF}</Project>
+      <Project>{8C1DCE9D-7F42-FF08-C6CF-504F14ED5361}</Project>
       <Name>RoadArchitect</Name>
     </ProjectReference>
   </ItemGroup>

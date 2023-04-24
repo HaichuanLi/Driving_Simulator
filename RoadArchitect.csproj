@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B4B02465-6779-2A88-4F9A-FC577E1F7EAF}</ProjectGuid>
+    <ProjectGuid>{8C1DCE9D-7F42-FF08-C6CF-504F14ED5361}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>RoadArchitect</AssemblyName>
