@@ -84,10 +84,5 @@ public class VerifierVitesse40 : MonoBehaviour
         }
 
     }
-    /*
-    public void OnTriggerExit()
-    {
-        this.enabled = false;
-    }
-    */
+    
 }
