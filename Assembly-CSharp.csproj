@@ -83,7 +83,6 @@
     <Compile Include="Assets\Cartoon SportCar B01\Prefab Player\ChangerTexteJoueur.cs" />
     <Compile Include="Assets\LB3D\Bus\GameManager.cs" />
     <Compile Include="Assets\RainMaker\Prefab\RainScript.cs" />
-    <Compile Include="Assets\Tarbo-CITY-TrafficLights\PrefabLumiere\ChangerLumiere.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\script\OpenElement.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
     <Compile Include="Assets\LB3D\Bus\Scripts\BusControl.cs" />
@@ -121,7 +120,7 @@
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\MobileControlRig.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
     <Compile Include="Assets\VerifierLignes.cs" />
-    <Compile Include="Assets\CahngerLumiereEnFonction.cs" />
+    <Compile Include="Assets\ChangerLumiere.cs" />
     <Compile Include="Assets\ChangerLumiereEnFonction.cs" />
   </ItemGroup>
   <ItemGroup>
