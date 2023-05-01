@@ -124,6 +124,7 @@
     <Compile Include="Assets\VerifierLignes.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\PrefabPNJ\Script PNJ\PnjNIveau5\BougerPnjNiv5.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\PrefabPNJ\Script PNJ\PnjNIveau5\DetecterVoitureDevant.cs" />
+    <Compile Include="Assets\Cartoon SportCar B01\PrefabPNJ\Script PNJ\PnjNIveau5\DetecterJoueurDevant.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
