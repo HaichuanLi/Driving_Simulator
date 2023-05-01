@@ -17,7 +17,7 @@ public class WheelController : MonoBehaviour
     public float maxTurnAngle = 45f;
 
 
-    private float currentAcceleration = 0f;
+    private float currentAcceleration = 100f;
     private float currentBrakeForce = 0f;
     private float currentTurnAngle= 0f;
 
