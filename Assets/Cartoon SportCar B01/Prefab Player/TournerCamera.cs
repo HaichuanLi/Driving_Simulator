@@ -14,7 +14,7 @@ public class TournerCamera : MonoBehaviour
         camAngle.y = 0;
         var horizDiffAngle = Vector3.Angle(playerAngle, camAngle);
         print(horizDiffAngle);
-        if (Input.GetKey(KeyCode.J)&& (int) horizDiffAngle<=75)
+        if (Input.GetKeyDown(KeyCode.J))
         {
             this.transform.Rotate(Vector3.up, -1, Space.Self);
         }
