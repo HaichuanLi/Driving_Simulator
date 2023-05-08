@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\WheelEffects.cs" />
+    <Compile Include="Assets\Cartoon SportCar B01\PrefabPNJ\Script PNJ\PnjNIveau5\DetecterJoueurDevant.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\PostEffectsBase.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\ButtonHandler.cs" />
     <Compile Include="Assets\Buttons_Play.cs" />
@@ -102,6 +103,7 @@
     <Compile Include="Assets\RainMaker\Prefab\RainScript2D.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\AbstractTargetFollower.cs" />
     <Compile Include="Assets\CollisionDetector.cs" />
+    <Compile Include="Assets\Cartoon SportCar B01\Prefab Player\TournerCamera.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\VignetteAndChromaticAberration.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\script\brake_light.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
@@ -109,6 +111,7 @@
     <Compile Include="Assets\Cartoon SportCar B01\DeterminerVitesse.cs" />
     <Compile Include="Assets\VoirSiBouge.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Prefab Player\ScriptDetecteurs\Niveau2\Detecteur1.cs" />
+    <Compile Include="Assets\Cartoon SportCar B01\PrefabPNJ\Script PNJ\PnjNIveau5\DetecterVoitureDevant.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\PrefabPNJ\Script PNJ\PNJNiveau3\BougerBus.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\PrefabPNJ\Script PNJ\PnjNiveau2\ArretaLArret.cs" />
     <Compile Include="Assets\Script.cs" />
@@ -119,12 +122,10 @@
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
     <Compile Include="Assets\RainMaker\Demo\DemoScript2D.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
+    <Compile Include="Assets\Cartoon SportCar B01\PrefabPNJ\Script PNJ\PnjNIveau5\BougerPnjNiv5.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\MobileControlRig.cs" />
     <Compile Include="Assets\Cartoon SportCar B01\Standard Assets\script\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
     <Compile Include="Assets\VerifierLignes.cs" />
-    <Compile Include="Assets\Cartoon SportCar B01\PrefabPNJ\Script PNJ\PnjNIveau5\BougerPnjNiv5.cs" />
-    <Compile Include="Assets\Cartoon SportCar B01\PrefabPNJ\Script PNJ\PnjNIveau5\DetecterVoitureDevant.cs" />
-    <Compile Include="Assets\Cartoon SportCar B01\PrefabPNJ\Script PNJ\PnjNIveau5\DetecterJoueurDevant.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

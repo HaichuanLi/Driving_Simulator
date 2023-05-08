@@ -57,7 +57,7 @@ public class BougerPnjNiv5 : MonoBehaviour
         else if (procheDeVoiture) 
         {
             currentAcceleration = 0;
-            currentBrakeForce = 40f;
+            currentBrakeForce = 20f;
         }
         else
         {
@@ -96,7 +96,7 @@ public class BougerPnjNiv5 : MonoBehaviour
     public void arreterVoiture()
     {
         currentBrakeForce = breakingForce;
-        voiture.drag = 3;
+        voiture.drag = 0;
     }
     public void accelererVoiture()
     {
