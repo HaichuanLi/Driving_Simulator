@@ -1,18 +1,18 @@
 # **Document de design du jeu (GDD)**
 
-### **Titre :**
+### **Titre:**
 
 Gouverne ton avenir (GTA)
 
-### **Genre :**
+### **Genre:**
 
 Simulateur de conduite
 
- **Pourquoi ce simulateur? :**
+ **Pourquoi ce simulateur?:**
 
 Ce simulateur est de type éducatif, il visera l’apprentissage du code routier. La passation du permis de conduire est depuis de nombreuse décennie un rituel considérer comme pénible auquel toute personne souhaitant prendre le volant doit prendre part. Le but est alors de rendre ce rituel nécessaire moins pénible afin de faciliter cette passation. Nous développerons donc un simulateur afin de rendre cet apprentissage plus ludique et ce processus moins pénible en général.
 
-### **Design du jeu :**
+### **Design du jeu:**
 
 Le jeu sera composé de plusieurs niveau. Chaque niveau aura pour but d’apprendre au joueur une notion du code routier. Bien que ce simulateur ne soit pas un remplacement des cours de conduite, il permettra de rendre le processus plus agréable. Le joueur se verra à l’intérieur de la voiture en première vue (POV). Chaque niveau indiquera au joueur comment procéder dans les rues de manière sécuritaire en respectant le code de la route. Par exemple, le premier niveau consistera à rester dans la bonne voix sur une petite distance.
 
@@ -36,7 +36,7 @@ Espace: freiner
 Escape: Le menu
 
 
-### **Cas d’utilisation possible :**
+### **Cas d’utilisation possible:**
 
 -	Formation à la conduite.
 -	Évaluation de la capacité de conduite : Les instructeurs pourront ainsi mieux guider les étudiants en identifiant leurs points faibles.
@@ -47,7 +47,7 @@ Escape: Le menu
 Ainsi, nous pourrions nous affilier à une école de conduite ou tout simplement vendre notre application à des étudiants en quête de connaître leur niveau ou apprendre interactivement.
 
 
-## **Technologie :**
+## **Technologie:**
 
 ### **Unity:**
 
@@ -79,9 +79,17 @@ b) Ajouter plus de modèle pour améliorer l'environnement et éviter les doublo
 
 ## **Conclusion:**
 
-En général. nous avons vu un peu trop gros lors de l'imagination de ce projet. En effet, nous avions prévu de couvrir la totalité du code routier. ce qui consistait à faire plusieurs dizainnes de niveaux. Nous avons aussi réaliser assez rapidement que la conception d'une génération aléatoire 
+En général. nous avons vu un peu trop gros lors de l'imagination de ce projet. En effet, nous avions prévu de couvrir la totalité du code routier. ce qui consistait à faire plusieurs dizainnes de niveaux. Nous avons aussi réaliser assez rapidement que la conception d'une génération aléatoire.
 
-### **Preuve d'exécution :**
+En fin de compte. nous sommes arriver à créer une petite sélection de niveau comprtant des règlements importants du code routier à l'intérieur d'environnement semi-réaliste.
+
+## **Digramme UML:**
+
+## **Lien du trailer:**
+
+
+
+## **Preuve d'exécution:**
 
 ![image](https://github.com/OGPNAVYSEALS/H23-GTA/assets/123408866/488bee8c-a11b-4c3c-a62b-8ab63cedcc6a)
 ![image](https://github.com/OGPNAVYSEALS/H23-GTA/assets/123408866/3cd15ea7-ccd0-4f53-9748-66800b73b39a)
