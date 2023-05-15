@@ -36,6 +36,15 @@ Espace: freiner
 Escape: Le menu
 
 
+### **Cas d’utilisation possible :**
+
+-	Formation à la conduite.
+-	Évaluation de la capacité de conduite : Les instructeurs pourront ainsi mieux guider les étudiants en identifiant leurs points faibles.
+-	Tests de conduite pour les personnes âgées : Notre simulateur pourra servir de test de capacités de conduite à des personnes âgées ou n’importe quels individus en rééducation (handicapés). Ainsi, rien n’est mis à risque.
+-	Particuliers rouillés
+-	Conducteur provenant d’un autre pays qui veut se familiariser avec les particularités du code routier canadien.
+
+Ainsi, nous pourrions nous affilier à une école de conduite ou tout simplement vendre notre application à des étudiants en quête de connaître leur niveau ou apprendre interactivement.
 
 
 ## **Technologie :**
@@ -48,15 +57,6 @@ Unity est un moteur de jeu, il est utilisé pour développer de nombreux jeux vi
 
 C’est un langage de programmation orienté objet développé par Microsoft. Il est versatile et est utilisé pour développer des application webs et mobiles ainsi que des jeux vidéo en tous genre avec Unity. Il est l’un des langages les plus utilisé et est bâtis pour être facile d’utilisation.
 
-### **Cas d’utilisation possible :**
-
--	Formation à la conduite.
--	Évaluation de la capacité de conduite : Les instructeurs pourront ainsi mieux guider les étudiants en identifiant leurs points faibles.
--	Tests de conduite pour les personnes âgées : Notre simulateur pourra servir de test de capacités de conduite à des personnes âgées ou n’importe quels individus en rééducation (handicapés). Ainsi, rien n’est mis à risque.
--	Particuliers rouillés
--	Conducteur provenant d’un autre pays qui veut se familiariser avec les particularités du code routier canadien.
-
-Ainsi, nous pourrions nous affilier à une école de conduite ou tout simplement vendre notre application à des étudiants en quête de connaître leur niveau ou apprendre interactivement.
 
 ### **Difficulté Rencontrées:**
 
@@ -64,6 +64,18 @@ Ainsi, nous pourrions nous affilier à une école de conduite ou tout simplement
 - L'organisation des fichiers dans Unity était aussi une difficulté. Vu que c'était la première fois que nous utilisions Unity, nous ne savions pas en commençant comment bien organiser nos script, nos assets et nos scènes. Il est arrivé plusieurs fois lors d'importation d'assets de ne pas fairer attention et d'inutilement prendre l'entiereté de l'asset et non seulement la partie nécessaire.
 - Nous avons aussi eu énormément de difficulté avec l'intelisense entre Unity et VS code qui se désactivait de manière mystérieuse. Cela nous ralentissait dans l'écriture des scripts puisque le language de Unity n'était parfois pas intégrer à VS code.
 
+## **Perspectives ( Suite du projet si vous avez eu le double du temps et possibilités d'améliorations)**
+
+### **GTA (gouverne ton avenir):**
+- Emblir le jeu:
+a) Ajouter différentes animations
+b) Ajouter plus de modèle pour améliorer l'environnement et éviter les doublons
+- Améliorer la physique du jeu pour la rendre plis fidàle à la réalité
+- Ajouter une génération aléatoire de route et terrain pour avoir l'option de conduite libre.
+- Ajouter d"autres niveaux afin de couvrir le code routier plus amplement.
+
+### **GTA 9gouvernail et titubations alternées):**
+- Ceci serait une suite au premier GTA qui couvrirait le permis naval à la place de celui routier.
 
 ### **Preuve d'exécution :**
 
