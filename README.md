@@ -83,7 +83,7 @@ En général. nous avons vu un peu trop gros lors de l'imagination de ce projet.
 
 En fin de compte. nous sommes arriver à créer une petite sélection de niveau comprtant des règlements importants du code routier à l'intérieur d'environnement semi-réaliste.
 
-## **Digramme UML:**
+## **Diagramme UML:**
 
 ## **Lien du trailer:**
 
