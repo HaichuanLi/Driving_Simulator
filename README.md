@@ -57,6 +57,9 @@ Unity est un moteur de jeu, il est utilisé pour développer de nombreux jeux vi
 
 C’est un langage de programmation orienté objet développé par Microsoft. Il est versatile et est utilisé pour développer des application webs et mobiles ainsi que des jeux vidéo en tous genre avec Unity. Il est l’un des langages les plus utilisé et est bâtis pour être facile d’utilisation.
 
+### **Visual Studio:**
+
+Visual Studio est un éditeur de code utilisé par Unity de baseé Celui-ci peremt de programmer en C# et de créer des scripts afin de décire le comportement des objets en jeu. De plus. grâce aux extensions dévloppées par la communauté de cet éditeur il n'était pas nécessaire de connaître les objets de Unity parcoeur.
 
 ### **Difficulté Rencontrées:**
 
