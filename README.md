@@ -74,8 +74,12 @@ b) Ajouter plus de modèle pour améliorer l'environnement et éviter les doublo
 - Ajouter une génération aléatoire de route et terrain pour avoir l'option de conduite libre.
 - Ajouter d"autres niveaux afin de couvrir le code routier plus amplement.
 
-### **GTA 9gouvernail et titubations alternées):**
+### **GTA (gouvernail et titubations alternées):**
 - Ceci serait une suite au premier GTA qui couvrirait le permis naval à la place de celui routier.
+
+## **Conclusion:**
+
+En général. nous avons vu un peu trop gros lors de l'imagination de ce projet. En effet, nous avions prévu de couvrir la totalité du code routier. ce qui consistait à faire plusieurs dizainnes de niveaux. Nous avons aussi réaliser assez rapidement que la conception d'une génération aléatoire 
 
 ### **Preuve d'exécution :**
 
