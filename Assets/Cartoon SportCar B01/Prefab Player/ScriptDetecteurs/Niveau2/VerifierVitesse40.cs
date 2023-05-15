@@ -5,7 +5,10 @@ using TMPro;
 using UnityEngine.SceneManagement;
 
 
-
+/*
+ * Classe qui détermine si le joueur respecte la limite de vitesse de 40.
+ * 
+ */
 public class VerifierVitesse40 : MonoBehaviour
 {
     public GameObject joueur;

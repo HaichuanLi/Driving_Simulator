@@ -4,7 +4,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
 
-
+/*
+ * Script qui passe au niveau suivant lorsque le joueur termine celui-ci.
+ */
 public class FInNiv2 : MonoBehaviour
 {
     private bool fin = false;

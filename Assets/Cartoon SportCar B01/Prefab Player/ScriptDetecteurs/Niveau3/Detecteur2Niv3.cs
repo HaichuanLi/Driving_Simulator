@@ -4,6 +4,11 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
 
+
+/*
+ * Script qui détermine si le joueur s'arrête à l'arret.
+ * 
+ */
 public class Detecteur2Niv3 : MonoBehaviour
 {
     public GameObject joueur;

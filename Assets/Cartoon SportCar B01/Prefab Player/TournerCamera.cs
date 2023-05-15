@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ *Classe qui tourne la caméra du joueur 
+ */
 public class TournerCamera : MonoBehaviour
 {
     public Transform joueur;
