@@ -87,7 +87,9 @@ En fin de compte. nous sommes arriver à créer une petite sélection de niveau 
 
 ## **Lien du trailer:**
 
+## **Échéancier:**
 
+![image](https://github.com/OGPNAVYSEALS/H23-GTA/assets/123408866/97ce8d6a-3fe4-4e1d-a474-48f024da3aa8)
 
 ## **Preuve d'exécution:**
 
