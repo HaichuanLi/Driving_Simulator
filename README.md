@@ -58,3 +58,13 @@ C’est un langage de programmation orienté objet développé par Microsoft. Il
 
 Ainsi, nous pourrions nous affilier à une école de conduite ou tout simplement vendre notre application à des étudiants en quête de connaître leur niveau ou apprendre interactivement.
 
+### **Difficulté Rencontrées:
+
+- Nous avous eu énormément de difficulté avec la sauvegarde du programme par Github. En effet, il est arrivé plusieurs fois de perdre des scripts ou parfois même des scènes.
+- L'organisation des fichiers dans Unity était aussi une difficulté. Vu que c'était la première fois que nous utilisions Unity, nous ne savions pas en commençant comment bien organiser nos script, nos assets et nos scènes. Il est arrivé plusieurs fois lors d'importation d'assets de ne pas fairer attention et d'inutilement prendre l'entiereté de l'asset et non seulement la partie nécessaire.
+- Nous avons aussi eu énormément de difficulté avec l'intelisense entre Unity et VS code qui se désactivait de manière mystérieuse. Cela nous ralentissait dans l'écriture des scripts puisque le language de Unity n'était parfois pas intégrer à VS code.
+
+
+### **Preuve d'exécution :**
+
+![image](https://github.com/OGPNAVYSEALS/H23-GTA/assets/123408866/488bee8c-a11b-4c3c-a62b-8ab63cedcc6a)
