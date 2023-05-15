@@ -23,13 +23,17 @@ Le jeu utilisera des graphismes en polygones de faible résolution, avec un styl
 ### **Contrôle:**
 
 Le simulateur utilise les contrôles classque des jeux su ordinateur en Amérique du Nord, donc WASD.
+
 W: Avancé
+
 S: Reculé
 D: Aller ver la droite
-A: Aller vers la gauche
-Espace: freiner 
-Escape: Le menu
 
+A: Aller vers la gauche
+
+Espace: freiner 
+
+Escape: Le menu
 
 
 
@@ -53,3 +57,4 @@ C’est un langage de programmation orienté objet développé par Microsoft. Il
 -	Conducteur provenant d’un autre pays qui veut se familiariser avec les particularités du code routier canadien.
 
 Ainsi, nous pourrions nous affilier à une école de conduite ou tout simplement vendre notre application à des étudiants en quête de connaître leur niveau ou apprendre interactivement.
+
