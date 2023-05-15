@@ -58,7 +58,7 @@ C’est un langage de programmation orienté objet développé par Microsoft. Il
 
 Ainsi, nous pourrions nous affilier à une école de conduite ou tout simplement vendre notre application à des étudiants en quête de connaître leur niveau ou apprendre interactivement.
 
-### **Difficulté Rencontrées:
+### **Difficulté Rencontrées:**
 
 - Nous avous eu énormément de difficulté avec la sauvegarde du programme par Github. En effet, il est arrivé plusieurs fois de perdre des scripts ou parfois même des scènes.
 - L'organisation des fichiers dans Unity était aussi une difficulté. Vu que c'était la première fois que nous utilisions Unity, nous ne savions pas en commençant comment bien organiser nos script, nos assets et nos scènes. Il est arrivé plusieurs fois lors d'importation d'assets de ne pas fairer attention et d'inutilement prendre l'entiereté de l'asset et non seulement la partie nécessaire.
