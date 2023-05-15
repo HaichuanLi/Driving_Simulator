@@ -20,6 +20,16 @@ Le jeu sera composé de plusieurs niveau. Chaque niveau aura pour but d’appren
 
 Le jeu utilisera des graphismes en polygones de faible résolution, avec un style artistique cartoon. La ville sera remplie de divers monuments et points d'intérêt, tels que des écoles, des hôpitaux et des stations-service. Les effets sonores incluront des sons de moteur réalistes, de klaxons et de bruits ambiants de la ville.
 
+### **Contrôle:**
+
+Le simulateur utilise les contrôles classque des jeux su ordinateur en Amérique du Nord, donc WASD.
+W: Avancé
+S: Reculé
+D: Aller ver la droite
+A: Aller vers la gauche
+Espace: freiner 
+Escape: Le menu
+
 
 
 
