@@ -88,6 +88,8 @@ En fin de compte. nous sommes arriver à créer une petite sélection de niveau 
 
 ## **Diagramme UML:**
 
+https://github.com/OGPNAVYSEALS/H23-GTA/issues/6#issue-1710940008
+
 ## **Lien du trailer:**
 
 https://drive.google.com/file/d/1KfnlucnluuJ98P_i6ktwliQyz7jJ7JDQ/view?usp=sharing
