@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * Classe qui détermine la vitesse d'une voiture
+ */ 
 public class DeterminerVitesse : MonoBehaviour
 {
     public float vitesse;

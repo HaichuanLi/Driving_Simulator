@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/*
+ * Classe qui controle les physiques de la voiture.
+ */
 public class WheelController : MonoBehaviour
 {
     public GameObject joueur;
@@ -51,7 +54,7 @@ public class WheelController : MonoBehaviour
         FrontLeftWheel.brakeTorque = currentBrakeForce;
         RearRightWheel.brakeTorque = currentBrakeForce;
         RearLeftWheel.brakeTorque = currentBrakeForce;
-
+         
         currentTurnAngle = maxTurnAngle * Input.GetAxis("Horizontal");
         FrontLeftWheel.steerAngle = currentTurnAngle;
         FrontRightWheel.steerAngle = currentTurnAngle;

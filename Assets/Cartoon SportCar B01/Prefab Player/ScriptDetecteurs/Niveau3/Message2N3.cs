@@ -3,24 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class ChangerMessageJoueur : MonoBehaviour
+public class Message2N3 : MonoBehaviour
 {
-    [SerializeField] TextMeshProUGUI messageJoueur;
-    public string message;
-
-
-
+    public TextMeshProUGUI messageJoueur;
+    // Start is called before the first frame update
     public void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.name == "Player")
         {
-            messageJoueur.text = message;
-
+            messageJoueur.text = "Portez attention au panneau d'autobus.";
         }
 
 
     }
-
-
 }
-

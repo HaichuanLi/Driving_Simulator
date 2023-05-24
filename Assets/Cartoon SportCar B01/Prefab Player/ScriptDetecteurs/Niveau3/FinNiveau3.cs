@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
-
 /*
  * Script qui passe au niveau suivant lorsque le joueur termine celui-ci.
  */
-public class FInNiv2 : MonoBehaviour
+public class FinNiveau3 : MonoBehaviour
 {
     private bool fin = false;
     public GameObject joueur;
@@ -24,18 +23,18 @@ public class FInNiv2 : MonoBehaviour
             }
             else
             {
-                SceneManager.LoadScene("Niveau3");
-                
+                SceneManager.LoadScene("Niveau4");
+
             }
         }
-        
+
     }
 
     public void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.name == "Player")
         {
-            messageJoueur.text = "Félicitation! Passage au niveau 3.";
+            messageJoueur.text = "Félicitation! Passage au niveau 4.";
             joueur.GetComponent<WheelController>().arreterVoiture();
             fin = true;
 

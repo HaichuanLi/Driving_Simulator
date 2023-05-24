@@ -4,6 +4,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
 
+/*
+ * Script qui détermine si le joueur s'arrête quand l'autobus engage son panneau d'arrêt.
+ */
 public class DetecteurArretAutobus : MonoBehaviour
 {
     public GameObject joueur;
