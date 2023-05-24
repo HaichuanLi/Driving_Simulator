@@ -4061,7 +4061,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2300a91995000a458737550432cc74d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameObject: {fileID: 1342374438}
 --- !u!1001 &733345734
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6419,9 +6418,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 731942875}
+      - m_Target: {fileID: 731942876}
         m_TargetAssemblyTypeName: Menu_Scripts, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: ChargerNiveau
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
