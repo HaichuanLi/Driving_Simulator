@@ -27,7 +27,7 @@ Le simulateur utilise les contrôles classique des jeux sur ordinateur en Améri
 W: Avancer
 
 S: Reculer
-D: Aller ver la droite
+D: Aller vers la droite
 
 A: Aller vers la gauche
 
@@ -72,8 +72,8 @@ Visual Studio est un éditeur de code utilisé par Unity de base. Celui-ci perme
 ### **GTA (gouverne ton avenir):**
 - Embellir le jeu:
 a) Ajouter différentes animations
-b) Ajouter plus de modèle pour améliorer l'environnement et éviter les doublons
-- Améliorer la physique du jeu pour la rendre plus fidèle à la réalité
+b) Ajouter plus de modèle pour améliorer l'environnement et éviter les doublons.
+- Améliorer la physique du jeu pour la rendre plus fidèle à la réalité.
 - Ajouter une génération aléatoire de routes et de terrains pour avoir l'option de conduite libre.
 - Ajouter d"autres niveaux afin de couvrir le code routier plus exhaustivement.
 
