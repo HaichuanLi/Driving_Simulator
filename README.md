@@ -27,6 +27,7 @@ Le simulateur utilise les contrôles classique des jeux sur ordinateur en Améri
 W: Avancer
 
 S: Reculer
+
 D: Aller vers la droite
 
 A: Aller vers la gauche
